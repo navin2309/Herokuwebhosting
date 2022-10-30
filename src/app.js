@@ -24,9 +24,9 @@ app.get("",(req, res)=>{
     res.render("about");
 });
 
-app.get("/products",(req, res)=>{
-    res.render("products");
-});
+// app.get("/products",(req, res)=>{
+//     res.render("products");
+// });
 
 app.get("/COUNTER",(req, res)=>{
     res.render("products_counter");
